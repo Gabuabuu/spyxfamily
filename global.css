@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly 
+}
+
+.logo {
+  font-weight: bold;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  background: #42445A;
+  color: white;
+}
+
+.links>li {
+  padding-left: 20px
+}
