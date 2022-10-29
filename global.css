@@ -1,3 +1,9 @@
+:root {
+  --fonte-geral:'Bubblegum Sans', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -7,20 +13,37 @@
 
 nav {
   display: flex;
-  justify-content: space-evenly 
+  justify-content: space-around;
+}
+
+.nav-bar {
+  display: flex;
+  background: #42445A;
+  width: 100vh;
 }
 
 .logo {
   font-weight: bold;
+  margin: 30px;
+  font-family: var(--fonte-geral);
 }
 
 .links {
   list-style: none;
   display: flex;
-  background: #42445A;
+  justify-content: space-evenly;
   color: white;
+  margin: 20px;
+  font-family: var(--fonte-geral);
+  padding: 10px;
+  border: 2px solid #8186C6;
+  border-radius: 10px;
 }
 
 .links>li {
-  padding-left: 20px
+  padding-left: 20px;
+}
+
+.links>li:hover {
+  color: #7058CF
 }
